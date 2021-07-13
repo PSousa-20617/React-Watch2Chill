@@ -13,7 +13,7 @@ const [filmes,setFilmes] = useState()
 
 useEffect(() => {
     fetch("http://localhost:8000/movies")
-    .then(res =>{
+    .then(res => {
       return res.json();
     })
     .then(data => {

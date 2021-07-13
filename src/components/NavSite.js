@@ -7,11 +7,13 @@ const NavSite = () => {
         <Navbar.Brand href="/">Watch2Chill</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/videos">Videos</Nav.Link>
+          <Nav.Link href="/filmes">Filmes</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
         </Nav>
         <Nav>
           <Button href="/login" variant="outline-info">Login</Button>
+          <Button href="/AddFilme" variant="outline-info">Adicionar Filme</Button>
+          
         </Nav>
       </Navbar>
     )

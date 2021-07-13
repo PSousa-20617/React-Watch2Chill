@@ -1,0 +1,5 @@
+body{
+    background: url("../assets/Background/background.png") repeat-y scroll right top transparent;
+        margin: 15;
+        padding: 0;
+}

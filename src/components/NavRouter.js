@@ -7,8 +7,10 @@ import {
   } from "react-router-dom";
 import NavSite from "./NavSite"
 import Home from "../pages/Home"
-import Videos from "../pages/Videos"
+import Filmes from "../pages/Filmes"
 import About from "../pages/About"
+import Details from "../pages/Details"
+import AddFilme from "../pages/AddFilme"
 
 const NavRouter = () => {
     return (
@@ -18,12 +20,17 @@ const NavRouter = () => {
         <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/videos">
-            <Videos />
+          <Route exact path="/filmes">
+            <Filmes />
           </Route>
           <Route exact path="/about">
             <About />
           </Route>
+          <Route path="/filmes/details/" component ={(props) => <Details {...props}/>} >
+        </Route>
+        <Route exact path="/AddFilme">
+          <AddFilme></AddFilme>
+        </Route>
         </Switch>
         </Router>
     )
