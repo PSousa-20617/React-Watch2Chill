@@ -1,69 +1,76 @@
 {
-    "movies": [
-      {
-        "id": 1,
-        "nome": "The Godfather",
-        "genero": "Crime, Drama",
-        "ano": "1972",
-        "elenco": "Al Pacino, Marlon Brando, James Caan, Richard S. Castellano",
-        "idioma": "Inglês",
-        "realizador": "Francis Ford Coppola",
-        "sinopse": "O patriarca de uma dinastia de crime organizado transfere o controlo do crime do seu império clandestino para seu filho relutante.",
-        "foto": "TheGodfather.jpg",
-        "trailer" : "https://www.youtube.com/watch?v=sY1S34973zA"
-      },
-      {
-        "id": 2,
-        "nome": "The Dark Knight",
-        "genero": "Crime, Drama, Ação",
-        "ano": "2008",
-        "elenco": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
-        "idioma": "Inglês",
-        "realizador": "Christopher Nolan",
-        "sinopse": "Quando a ameaça conhecida como o Joker causa estragos e caos sobre o povo de Gotham , o Cavaleiro das Trevas deve chegar a um acordo com um dos maiores testes psicológicos, a sua capacidade de lutar contra a injustiça.",
-        "foto": "TheDarkKnight.jpg",
-        "trailer" : "https://www.youtube.com/watch?v=EXeTwQWrcwY"
-
-      },
-      {
-        "id": 3,
-        "nome": "The Lord of the Rings",
-        "genero": "Aventura, Fantasia, Drama",
-        "ano": "2001",
-        "elenco": "Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
-        "idioma": "Inglês",
-        "realizador": "Peter Jackson",
-        "sinopse": "Numa era distante, o Lorde das Trevas Sauron criou secretamente o Anel, um objeto mágico capaz de exercer poder sobre toda a Terra Média. Anos depois, acredita-se que o Anel esteja perdido. Porém, o jovem Hobbit Frodo recebe o objeto do seu tio, que o guardava há muitos anos. Sabendo disso, o mago Gandalf dá-lhe a missão de partir numa difícil jornada para carregar o fardo do Anel e destruí-lo, ao lado da Sociedade do Anel, composta por outros hobbits, humanos, elfos e anões.",
-        "foto": "TheLordOfTheRings.jpg",
-        "trailer" : "https://www.youtube.com/watch?v=V75dMMIW2B4"
-
-      },
-      {
-        "id": 4,
-        "nome": "Star Wars: Episode I",
-        "genero": "Aventura, Ação, Fantasia",
-        "ano": "1977",
-        "elenco": "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing",
-        "idioma": "Inglês",
-        "realizador": "George Lucas",
-        "sinopse": "A Federação do Comércio, dirigida por Nute Gunray planeia assumir o pacífico mundo de Naboo. O Jedi Qui-Gon Jinn e Obi-Wan Kenobi são enviados para confrontar os líderes. Mas nem tudo corre conforme o plano. Os dois Jedis escapam e, em conjunto com o seu novo amigo Gungan, Jar Jar Binks, avançam para Naboo para advertir a Rainha Amidala, mas os droids já começaram a capturar Naboo e a Rainha não está segura aí.",
-        "foto": "StarWars.jpg",
-        "trailer" : "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
-
-      },
-      {
-        "id": 5,
-        "nome": "Harry Potter e a Pedra Filosofal",
-        "genero": "Fantasia, Aventura, Família",
-        "ano": "2001",
-        "elenco": "Daniel Radcliffe, Rupert Grint, Richard Harris",
-        "idioma": "Inglês",
-        "realizador": "Chris Columbus",
-        "sinopse": "Harry Potter um órfão que descobre que os seus pais eram feiticeiros e que ele também possui poderes mágicos. Harry Potter passou a maior parte do seu tempo debaixo da escada na casa dos Dursleys, seus tios que não gostam dele. Porém, quando é convidado para estudar na Escola de Feitiços e Magia Hogwart, Harry percebe que existem dois mundos: um é o mundo sem graça dos humanos comuns e o outro é cheio de magia, encanto e fantasia.",
-        "foto": "HarryPotter.jpg",
-        "trailer" : "https://www.youtube.com/watch?v=VyHV0BRtdxo"
-
-      }
-
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "nome": "The Godfather",
+      "genero": "Crime, Drama",
+      "ano": "1972",
+      "elenco": "Al Pacino, Marlon Brando, James Caan, Richard S. Castellano",
+      "idioma": "Inglês",
+      "realizador": "Francis Ford Coppola",
+      "sinopse": "O patriarca de uma dinastia de crime organizado transfere o controlo do crime do seu império clandestino para seu filho relutante.",
+      "foto": "TheGodfather.jpg",
+      "trailer": "https://www.youtube.com/watch?v=sY1S34973zA"
+    },
+    {
+      "id": 2,
+      "nome": "The Dark Knight",
+      "genero": "Crime, Drama, Ação",
+      "ano": "2008",
+      "elenco": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
+      "idioma": "Inglês",
+      "realizador": "Christopher Nolan",
+      "sinopse": "Quando a ameaça conhecida como o Joker causa estragos e caos sobre o povo de Gotham , o Cavaleiro das Trevas deve chegar a um acordo com um dos maiores testes psicológicos, a sua capacidade de lutar contra a injustiça.",
+      "foto": "TheDarkKnight.jpg",
+      "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+      "id": 3,
+      "nome": "The Lord of the Rings",
+      "genero": "Aventura, Fantasia, Drama",
+      "ano": "2001",
+      "elenco": "Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
+      "idioma": "Inglês",
+      "realizador": "Peter Jackson",
+      "sinopse": "Numa era distante, o Lorde das Trevas Sauron criou secretamente o Anel, um objeto mágico capaz de exercer poder sobre toda a Terra Média. Anos depois, acredita-se que o Anel esteja perdido. Porém, o jovem Hobbit Frodo recebe o objeto do seu tio, que o guardava há muitos anos. Sabendo disso, o mago Gandalf dá-lhe a missão de partir numa difícil jornada para carregar o fardo do Anel e destruí-lo, ao lado da Sociedade do Anel, composta por outros hobbits, humanos, elfos e anões.",
+      "foto": "TheLordOfTheRings.jpg",
+      "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+    },
+    {
+      "id": 4,
+      "nome": "Star Wars: Episode I",
+      "genero": "Aventura, Ação, Fantasia",
+      "ano": "1977",
+      "elenco": "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing",
+      "idioma": "Inglês",
+      "realizador": "George Lucas",
+      "sinopse": "A Federação do Comércio, dirigida por Nute Gunray planeia assumir o pacífico mundo de Naboo. O Jedi Qui-Gon Jinn e Obi-Wan Kenobi são enviados para confrontar os líderes. Mas nem tudo corre conforme o plano. Os dois Jedis escapam e, em conjunto com o seu novo amigo Gungan, Jar Jar Binks, avançam para Naboo para advertir a Rainha Amidala, mas os droids já começaram a capturar Naboo e a Rainha não está segura aí.",
+      "foto": "StarWars.jpg",
+      "trailer": "https://www.youtube.com/watch?v=bD7bpG-zDJQ"
+    },
+    {
+      "id": 5,
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "genero": "Fantasia, Aventura, Família",
+      "ano": "2001",
+      "elenco": "Daniel Radcliffe, Rupert Grint, Richard Harris",
+      "idioma": "Inglês",
+      "realizador": "Chris Columbus",
+      "sinopse": "Harry Potter um órfão que descobre que os seus pais eram feiticeiros e que ele também possui poderes mágicos. Harry Potter passou a maior parte do seu tempo debaixo da escada na casa dos Dursleys, seus tios que não gostam dele. Porém, quando é convidado para estudar na Escola de Feitiços e Magia Hogwart, Harry percebe que existem dois mundos: um é o mundo sem graça dos humanos comuns e o outro é cheio de magia, encanto e fantasia.",
+      "foto": "HarryPotter.jpg",
+      "trailer": "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+    },
+    {
+      "nome": "aaaaa",
+      "genero": "aaaaa",
+      "ano": "1234",
+      "realizador": "dsadsadas",
+      "elenco": "dasdasdas dasdsadas dasdas",
+      "idioma": "abc",
+      "descricao": "dsadsadwdsadlkjsfhdkfhsdkhfkdjshfkjsdhfkjsdhkjfhseiuhfkdjhsfiushekufhkjdshfuksehfkjdhsfueshkndkjfhuekshkjdhfkuehsuhfdgjf8iqwpqiweopwqiueouhfnsjkvbjdgifuhidjasod",
+      "imagem": "",
+      "trailer": "asasasas",
+      "id": 6
+    }
+  ]
+}

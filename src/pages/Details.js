@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import logo from "../assets/logos/logo.png"
 import Embed from 'react-embed'
+import EditFilme from "../components/EditFilme"
 
 const imgStyle = {
     maxWidth: 300,
@@ -25,11 +26,26 @@ const borderStyle = {
     backgroundColor: "grey"
 }
 
+const buttonStyle = {
+    marginTop: "10px",
+    marginRight: "5px",
+  };
+
 
 
 const Details = (props) => {
 
     const [filme, setFilme] = useState(props.location.state);
+
+    const handleDelete = () => {
+        fetch('http://localhost:8000/movies/' + filme.id, {
+        method: 'DELETE',
+      })
+      .then(console.log("Deleted "+filme.id)) 
+    
+      }
+
+  
 
     let movieImage = null;
     //tenta ir buscar a imagem. Se não existir o logo é metido
@@ -62,6 +78,12 @@ const Details = (props) => {
                     <p><b>Idioma:</b> {filme.idioma}</p>
                     <p><b>Descrição:</b> {filme.sinopse}</p>
                 </Col>
+                <Col>
+                    <EditFilme details = {filme} ></EditFilme>
+                    <Button style={buttonStyle} onClick={handleDelete}>Apagar</Button>
+                              
+                </Col>
+
             </Row>
             <Row xs={1} md={2}>
                 <Col>
